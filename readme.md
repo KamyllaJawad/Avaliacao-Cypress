@@ -5,13 +5,15 @@ Utilizamos o Cypress para simular o processo de cadastramento de um usuário com
 
 ## Requisitos
 
-Node.js versão 12 ou superior
-Cypress versão 9 ou superior
+- Node.js versão 12 ou superior
+- Cypress versão 9 ou superior
 
 ## Instalação
 
 Clone este repositório.
+
 Instale as dependências com o seguinte comando:
+
 `npm install`
 
 ## Estrutura do Projeto
@@ -24,6 +26,7 @@ Instale as dependências com o seguinte comando:
 Você pode executar os testes utilizando o Cypress Test Runner ou por linha de comando.
 
 Execute o seguinte comando para abrir o Cypress Test Runner:
+
 `npx cypress open`
 
 Depois, selecione o arquivo de teste desejado para executá-lo no Dashboard de testes cases.
@@ -31,6 +34,7 @@ Depois, selecione o arquivo de teste desejado para executá-lo no Dashboard de t
 ##### Linha de Comando:
 
 Você também pode executar os testes diretamente na linha de comando usando:
+
 `npx cypress run --spec "caminho/para/arquivo_de_teste.spec.js"`
 
 
@@ -38,9 +42,11 @@ Você também pode executar os testes diretamente na linha de comando usando:
 ## Testes Incluídos
 
 Cadastramento de Usuário na Natura:
+
 Testa o processo de cadastramento de um novo usuário no site da Natura, com validação completa, incluindo CPF, telefone e aceite dos termos.
 
 Cadastramento de Usuário na Aesop:
+
 Simula o cadastramento de um novo usuário no site da Aesop, seguindo os passos para o preenchimento correto dos campos.
 
 
