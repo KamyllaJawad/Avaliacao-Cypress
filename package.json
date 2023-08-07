@@ -1,4 +1,5 @@
 {
+  "cy:dash": "npx cypress run --record --key CYPRESS_RECORD_KEY",
   "devDependencies": {
     "cypress": "^12.17.3"
   },
