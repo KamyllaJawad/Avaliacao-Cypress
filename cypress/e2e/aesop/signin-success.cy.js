@@ -1,6 +1,7 @@
 describe('Sign In Success in Aesop', () => {
     it('Create a valid profile in Aesop', () => {
-      cy.visit('https://www.aesop.com.br/');
+    cy.visit('https://www.natura.com.br/', {failOnStatusCode: false})
+    cy.visit('https://www.aesop.com.br/');
       cy.get('.natds27').click(); // botao cadastre-se
       cy.get('#onetrust-accept-btn-handler').click(); // aceitar os cookies 
       cy.intercept('POST', 'https://production.na01.natura.com/s/AesopBrazil/dw/shop/v20_4/customers').as('createUser')

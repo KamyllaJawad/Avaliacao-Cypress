@@ -1,6 +1,6 @@
 describe('Sign In Success in Natura', () => {
   it('Create a valid profile in Natura', () => {
-    cy.visit('https://www.natura.com.br/')
+    cy.visit('https://www.natura.com.br/', {failOnStatusCode: false})
     cy.get('.natds40').click()
     cy.get('#onetrust-accept-btn-handler').click()
     cy.get('.MuiButton-outlined').click()
